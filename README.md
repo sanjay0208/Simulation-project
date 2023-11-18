@@ -10,43 +10,56 @@ This Arduino-based door locking system offers a balance between security and use
 The literature review for an Arduino door locking system with a 4-digit Pincode encompasses an exploration of electronic access control systems, including their architectures and authentication methods, with a focus on the evolution from traditional key-based to digital solutions. Additionally, studies on the application of Arduino microcontrollers in security systems are examined, highlighting the versatility and adaptability of Arduino-based projects. Research on PIN-based access systems contributes insights into authentication principles and usability factors, while discussions on biometric and multifactor authentication systems provide a broader context. Literature on user experience and human-computer interaction in electronic door locking systems informs considerations for interface design. Security aspects, such as encryption and protection against common threats, are addressed, and the integration of IoT and home automation into door locking systems is explored. The review also encompasses the role of open-source hardware and software, examining their benefits and challenges. Real-world case studies and implementations offer practical insights and lessons learned, contributing to a comprehensive understanding of the state-of-the-art in Arduino-based door locking systems.
 ## PROPOSED METHODLOGY:
 
-###Define Objectives:
+## Define Objectives:
+
 Clearly articulate the goals and functionalities of the Arduino-based door locking system.
 
-###Component Assembly:
+## Component Assembly:
+
 Gather and connect the necessary components, including Arduino, keypad, and locking mechanism.
 
-###Code Development:
+## Code Development:
+
 Write Arduino code for Pincode validation, user feedback, and control of the locking mechanism.
 
-###Testing:
+## Testing:
+
 Conduct rigorous testing to ensure proper functionality in different scenarios.
 
-###Security Implementation:
+## Security Implementation:
+
 Integrate security measures, such as delay features, to enhance system robustness.
 
-###User Interface Refinement:
+## User Interface Refinement:
+
 Design an intuitive user interface for effective interaction and feedback.
 
-###Documentation:
+## Documentation:
+
 Prepare clear documentation covering system architecture, circuit diagrams, and user instructions.
 
-###User Training:
+## User Training:
+
 Train end-users on Pincode entry, system operation, and basic troubleshooting.
 
-###Installation:
+## Installation:
+
 Mount the system securely in the desired location, ensuring stability and proper connections.
 
-###Final Checks:
+## Final Checks:
+
 Perform a comprehensive check to verify overall system functionality before deployment.
 
-###Deployment:
+## Deployment:
+
 Roll out the system for regular use, monitoring its performance in the real-world environment.
 
-###Maintenance Plan:
+## Maintenance Plan:
+
 Establish a maintenance schedule and procedures for addressing any issues that may arise.
 
-###Feedback and Iteration:
+## Feedback and Iteration:
+
 Gather user feedback and consider improvements or additional features for future iterations
 
 ## CIRCUIT DIAGRAM:
