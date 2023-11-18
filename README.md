@@ -69,23 +69,18 @@ char keys[ROW_NUM][COLUMN_NUM] = {
   {'7','8','9','C'},
   {'*','0','#','D'}
 };
-
 byte pin_rows[ROW_NUM] = {5, 4, 3, 2}; // connect to the row pinouts of the keypad
 byte pin_column[COLUMN_NUM] = {8, 7, 6, A0}; // connect to the column pinouts of the keypad
-
 Keypad keypad = Keypad(makeKeymap(keys), pin_rows, pin_column, ROW_NUM, COLUMN_NUM);
 String enteredCode = "";
 String correctCode = "1234"; // Change this to your desired 4-digit Pincode
-
 void setup() {
   Serial.begin(9600);
   myServo.attach(servoPin);
   myServo.write(0); // Initialize the servo in the unlocked position
 }
-
 void loop() {
   char key = keypad.getKey();
-
   if (key) {
     if (key == '#') {
       // Check the entered Pincode
@@ -102,14 +97,12 @@ void loop() {
     }
   }
 }
-
 void unlockDoor() {
   Serial.println("Door unlocked!");
   myServo.write(90); // Rotate the servo to lock position
   delay(2000); // Keep the door locked for 2 seconds (adjust as needed)
   myServo.write(0); // Rotate the servo back to unlock position
 }
-
 ~~~
 ## RESULTS:
 ![Screenshot 2023-11-18 085512](https://github.com/sanjay0208/Simulation-project/assets/119406959/ff44553d-d1a8-414b-800f-d16ebce504df)
